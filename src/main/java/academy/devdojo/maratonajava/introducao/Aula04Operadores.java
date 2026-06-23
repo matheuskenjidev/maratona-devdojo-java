@@ -26,5 +26,10 @@ public class Aula04Operadores {
         boolean isDezDiferenteDeVinte = 10 != 20;
         System.out.println(isDezDiferenteDeVinte);
 
+        // && || !
+        int idade = 18;
+        float salario = 3500;
+        boolean isDentroDaLei = (idade >= 18 && salario > 3000);
+        System.out.println(isDentroDaLei);
     }
 }
